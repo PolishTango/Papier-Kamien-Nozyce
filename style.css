@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+header{
+    background-image: linear-gradient(#3f5efb, #fc466b);
+    background-attachment: fixed;
+    padding: 20px;
+    font-family: 'Gloria Hallelujah', regular;
+}
+header >h1{
+    font-size: 56px;
+    color: rgb(220, 194, 142);
+    text-align: center;
+    margin-top:-3vh;
+}
+.score-board{
+    border: 3px solid orange;
+    margin: 20px auto;
+    width: 250px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    position: relative;
+    font-size: 50px;
+    color: wheat;
+    text-align: center;
+    background-image: linear-gradient(#3f5efb, #fc466b);
+    background-attachment: fixed;
+    font-family: 'Luckiest Guy', cursive;
+}
+.badge{
+    color: rgb(222, 67, 230);
+    background-image: linear-gradient(#3f5efb, #fc466b);
+    background-attachment: fixed;    
+    font-size: 25px;
+    position: absolute;
+    padding: 2px 10px;
+}
+#user-label{
+    text-align: right;
+    top: 25px;
+    right: 205px;
+}
+#computer-label{
+    text-align: right;
+    top: 25px;
+    left: 203px;
+}
+.result{
+    color: rgb(220, 194, 142);
+    text-align: center;
+    font-size: 65px;
+    margin-top:-1vh;
+    padding: 5px;
+    font-family: 'Gloria Hallelujah', regular;
+    
+}
+.choices{
+    margin: 50px 0;
+    text-align: center;
+    margin-top:-1vh;
+
+}
+.choice{
+    /* border: 6px solid #e5de15; */
+    border: solid 6px transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(#3f5efb,#fc466b), radial-gradient(circle at top left,  rgb(232, 215, 209),#e89366);
+    background-attachment: fixed;
+
+    background-clip: padding-box, border-box;
+    margin: 0 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    display: block;
+}
+.choice:hover{
+    cursor: pointer;
+    padding: 10px;
+}
+#action-message{
+    color: rgb(220, 194, 142);
+    text-align: center;
+    font-size: 6cqh;
+}
+.win-glow{
+    border: 6px solid greenyellow;
+    box-shadow: 0 0 10px #259a61;
+}
+.lost-glow{
+    border: 6px solid red;
+    box-shadow: 0 0 10px #b0783f;
+}
+.draw-glow{
+    border: 6px solid grey;
+    box-shadow: 0 0 10px #4b5751;
+}
+body{
+    background-image: linear-gradient(#3f5efb, #fc466b);
+    background-attachment: fixed;
+}
+#action-message{
+    font-size: 100px;
+    color: rgb(227, 213, 195);
+    margin-top:-3vh;
+    font-family: 'Gloria Hallelujah', regular;
+
+}
